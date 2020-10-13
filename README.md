@@ -53,11 +53,11 @@ The solutions to this problem on different meshes in the square domain are shown
 
 | **Mesh** | **Solution** |
 |------|--------|
-| Square    | ![square](assets/plots/u_sd_s.png | width=100)    |
-| Triangle    | ![triangle](assets/plots/u_sd_t.png "triangle")      |
-| Voronoi | ![voronoi](assets/plots/u_sd_v.png "voronoi") |
-| Smoothed Voronoi | ![svoronoi](assets/plots/u_sd_sv.png "smoothed") |
-| Non-convex | ![nc](assets/plots/u_sd_nc.png "non convex") |
+| Square    | <img src="assets/plots/u_sd_s.png" width="300" height="300" />   |
+| Triangle    | <img src="assets/plots/u_sd_t.png" width="300" height="300" />      |
+| Voronoi | <img src="assets/plots/u_sd_v.png" width="300" height="300" /> |
+| Smoothed Voronoi | <img src="assets/plots/u_sd_sv.png" width="300" height="300" /> |
+| Non-convex | <img src="assets/plots/u_sd_nc.png" width="300" height="300" /> |
 
 
 
