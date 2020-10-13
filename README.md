@@ -4,7 +4,7 @@ This repository contains a Python translation of the code provided in:
 
 >[The virtual element method in 50 lines of MATLAB. *Oliver J. Sutton*. *Numerical Algorithms*](https://dl.acm.org/doi/10.1007/s11075-016-0235-3)
 
-It solves a toy problem, a 2-D poisson equation on generalized polygonal meshes, using the lowest order Virtual Element Methods.
+It solves a toy problem, a 2-D poisson equation on generalized polygonal meshes, using the lowest order Virtual Element Method.
 
 
 ## Usage
@@ -14,7 +14,7 @@ $ python3 vem.py --help
 usage: vem.py [-h] [-d D] [-o O] [--save_plot] [--title TITLE] i
 
 This script solves 2-D Poisson Equation on general polygonal meshes using
-Virtual Element Methods of the lowest order.
+Virtual Element Method of the lowest order.
 
 positional arguments:
   i              Path to input mesh
