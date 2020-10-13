@@ -52,7 +52,7 @@ The solutions to this problem on different meshes in the square domain are shown
 
 | **Mesh** | Square | Triangle | Voronoi | Smoothed Voronoi | Non-convex |
 | -------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| **Solution** | <img src="assets/plots/u_sd_s.png" /> | <img src="assets/plots/u_sd_t.png" /> | <img src="assets/plots/u_sd_v.png" /> | <img src="assets/plots/u_sd_sv.png" /> | <img src="assets/plots/u_sd_nc.png" /> |
+| **Solution** | <img src="assets/plots/u_sd_s.png" width=1200px /> | <img src="assets/plots/u_sd_t.png" width=1200px /> | <img src="assets/plots/u_sd_v.png" width=1200px /> | <img src="assets/plots/u_sd_sv.png" width=1200px /> | <img src="assets/plots/u_sd_nc.png" width=1200px /> |
 
 
 ## Custom boundary conditions and RHS
