@@ -44,7 +44,7 @@ python3 vem.py -d s meshes/square -o solution.npy --save_plot --title plot.png
 
 Since this is a translation of the paper, this repository solved the exact toy problem that the paper has taken up, that is,
 
-![problem](asstes/problem.png "Problem")
-![rhs](asstes/rhs.png "RHS")
-![boundary](asstes/boundary.png "boundary")
+![problem](assets/problem.png "Problem")
+![rhs](assets/rhs.png "RHS")
+![boundary](assets/boundary.png "boundary")
 
