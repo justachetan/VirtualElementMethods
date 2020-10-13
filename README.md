@@ -66,10 +66,10 @@ Basically, the template is as follows:
 ```
 # for boundary condition
 def my_boundary_condition(points):
-	# points is a list of 2-lists, containing mesh points
-
-	results = do_something(points)
-	return results
+    # points is a list of 2-lists, containing mesh points
+    
+    results = do_something(points)
+    return results
 
 # for RHS
 def my_rhs(point):
