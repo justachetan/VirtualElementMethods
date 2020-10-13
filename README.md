@@ -36,8 +36,8 @@ The meshes can be downloaded from [here](http://www.netlib.org/numeralgo/) (avai
 ### Example Usage
 
 ```
-$ Computing the solution of a 2-D poisson equation on a square mesh and square domain
-python3 vem.py -d s meshes/square -o solution.npy --save_plot --title plot.png
+$ # Computing the solution of a 2-D poisson equation on a square mesh and square domain
+$ python3 vem.py -d s meshes/square -o solution.npy --save_plot --title plot.png
 ```
 
 ## Some Results
