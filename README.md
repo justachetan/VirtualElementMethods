@@ -48,3 +48,16 @@ Since this is a translation of the paper, this repository solved the exact toy p
 ![rhs](assets/rhs.png "RHS")
 ![boundary](assets/boundary.png "boundary")
 
+The solutions to this problem on different meshes in the square domain are shown below.
+
+
+| **Mesh** | **Solution** |
+|------|--------|
+| Square    | ![square](assets/meshes/u_sd_s.png "square")    |
+| Triangle    | ![triangle](assets/meshes/u_sd_t.png "triangle")      |
+| Voronoi | ![voronoi](assets/meshes/u_sd_v.png "voronoi") |
+| Smoothed Voronoi | ![svoronoi](assets/meshes/u_sd_sv.png "smoothed") |
+| Non-convex | ![nc](assets/meshes/u_sd_nc.png "non convex") |
+
+
+
