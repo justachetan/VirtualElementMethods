@@ -53,7 +53,7 @@ The solutions to this problem on different meshes in the square domain are shown
 
 | **Mesh** | **Solution** |
 |------|--------|
-| Square    | ![square](assets/plots/u_sd_s.png "square")    |
+| Square    | ![square](assets/plots/u_sd_s.png | width=100)    |
 | Triangle    | ![triangle](assets/plots/u_sd_t.png "triangle")      |
 | Voronoi | ![voronoi](assets/plots/u_sd_v.png "voronoi") |
 | Smoothed Voronoi | ![svoronoi](assets/plots/u_sd_sv.png "smoothed") |
