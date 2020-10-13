@@ -50,14 +50,53 @@ Since this is a translation of the paper, this repository solved the exact toy p
 
 The solutions to this problem on different meshes in the square domain are shown below.
 
+| **Mesh** | Square | Triangle | Voronoi | Smoothed Voronoi | Non-convex |
+| -------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| **Solution** | <img src="assets/plots/u_sd_s.png" /> | <img src="assets/plots/u_sd_t.png" /> | <img src="assets/plots/u_sd_v.png" /> | <img src="assets/plots/u_sd_sv.png" /> | <img src="assets/plots/u_sd_nc.png" /> |
 
-| **Mesh** | **Solution** |
-|------|--------|
-| Square    | ![square](assets/plots/u_sd_s.png "square")    |
-| Triangle    | ![triangle](assets/plots/u_sd_t.png "triangle")      |
-| Voronoi | ![voronoi](assets/plots/u_sd_v.png "voronoi") |
-| Smoothed Voronoi | ![svoronoi](assets/plots/u_sd_sv.png "smoothed") |
-| Non-convex | ![nc](assets/plots/u_sd_nc.png "non convex") |
+
+## Custom boundary conditions and RHS
+
+You can customise the code to run it with your own boundary condition and RHS too!
+
+Just take a look at `square_domain_boundary_condition` and `square_domain_rhs`, you can write similar boundary condition functions and RHS function definitions. 
+
+Basically, your the template is as follows:
+
+```
+# for boundary condition
+def my_boundary_condition(points):
+	# points is a list of 2-lists, containing mesh points
+
+	results = do_something(points)
+	return results
+
+# for RHS
+def my_rhs(point):
+    # here we have a single 2-list as input
+
+    result_rhs = do_something_more(point)
+    return result_rhs
+```
+
+Now, in `vem.py`, go to the main function where the `vem` function is called and change it to:
+
+```
+u = vem(mesh_file, my_rhs, my_boundary_condition)
+```
+
+And voilà! You should be good to go! 
+
+## Report
+
+My understanding of the paper is documented in a report available [here](https://justachetan.github.io/proposts/NPDE_report.pdf).
+
+
+- - -
+
+This code was written as a part of my course project in **MTH598 Numerical Partial Differential Equations** with [Dr. Kaushik Kalyanaraman](https://www.iiitd.ac.in/kaushik) at IIIT Delhi during Winter 2019 Semester. 
+
+For bugs in the code, please write to: aditya16217 [at] iiitd [dot] ac [dot] in
 
 
 
