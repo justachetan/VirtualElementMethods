@@ -207,9 +207,9 @@ def main():
     from argparse import RawTextHelpFormatter
 
     parser = argparse.ArgumentParser(
-        description='This command is used for solving 2-D PDEs using Virtual Element Methods\n of the lowest order.', formatter_class=RawTextHelpFormatter)
+        description='This script solves 2-D Poisson Equation on general polygonal meshes using \nVirtual Element Method of the lowest order.', formatter_class=RawTextHelpFormatter)
     parser.add_argument(
-        "-d", help="Specifies the shape of the 2D domain.\n Possible values are:\n- s: Square Domain\n- l: L-Shaped Domain", type=str)
+        "-d", help="Specifies the shape of the 2D domain. \nPossible values are:\n- s: Square Domain\n- l: L-Shaped Domain", type=str)
     parser.add_argument("-o", help="Path to output file",
                         type=str, default="./sol.npy")
     parser.add_argument("i", help="Path to input mesh", type=str)
