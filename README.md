@@ -75,7 +75,7 @@ def my_boundary_condition(points):
 def my_rhs(point):
     # here we have a single 2-list as input
 
-    result_rhs = do_something_more(point)
+    result_rhs = do_something_else(point)
     return result_rhs
 ```
 
