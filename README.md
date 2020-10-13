@@ -61,7 +61,7 @@ You can customise the code to run it with your own boundary condition and RHS to
 
 Just take a look at `square_domain_boundary_condition` and `square_domain_rhs`, you can write similar boundary condition functions and RHS function definitions. 
 
-Basically, your the template is as follows:
+Basically, the template is as follows:
 
 ```
 # for boundary condition
