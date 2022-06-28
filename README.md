@@ -44,9 +44,19 @@ $ python3 vem.py -d s meshes/square -o solution.npy --save_plot --title plot.png
 
 Since this is a translation of the paper, this repository solved the exact toy problem that the paper has taken up, that is,
 
-![problem](assets/problem.png "Problem")
+$$
+\begin{align*} 
+-\Delta u &= f \text{ in } \Omega \\ 
+u &= g \text{ in } \partial \Omega \\
+\end{align*}
+$$
+
+Here $f = 15\sin (\pi x) \sin (\pi y)$ and $u = (1 - x) y \sin (\pi x)$ 
+on  $\partial \Omega $
+
+<!-- ![problem](assets/problem.png "Problem")
 ![rhs](assets/rhs.png "RHS")
-![boundary](assets/boundary.png "boundary")
+![boundary](assets/boundary.png "boundary") -->
 
 The solutions to this problem on different meshes in the square domain are shown below.
 
